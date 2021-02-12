@@ -15,7 +15,7 @@ exports.config = {
   teardown: null,
   hooks: [],
   gherkin: {
-    features: './features/*.feature',
+    features: './features/api/*.feature',
     steps: [
       './steps/api/get_cotacao_dolar.steps.js'
     ]
