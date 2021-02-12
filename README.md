@@ -8,7 +8,7 @@ Pré requisitos para a execução do projeto:
 * Node.js : v12+
 
 # Estrutura
-* No projeto foi utilizado o design pattern Page Objects;
+* No projeto foi utilizado o design pattern de Page Objects;
 * Na pasta ./fearures/comex_stat_ncm estão os aquivos com os cenários escritos para resolver o exercicio 1 proposto;
 * Na pasta ./features/api estão os cenários que foram implementados para resolver o exercicio 2 proprosto;
 
@@ -25,7 +25,7 @@ npm run codeceptjs:api
 ```
 
 ## Report
-Após a execução dos testes os artefatos gerados são adicionados na pasta ./output, esta pasta é utilizada para gerar o relatorio com os logs e capturas de telas dos erros que ocorreram durante a execução.
+Após a execução dos testes os artefatos gerados são adicionados na pasta ./output, esta pasta é utilizada para gerar o relatório com os logs e erros que ocorreram durante a execução.
 
 Para instalar o Allure utilize o seguinte comando:
 ```
