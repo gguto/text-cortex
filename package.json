@@ -3,13 +3,14 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "codeceptjs": "codeceptjs run --steps"
+        "codeceptjs:api": "npx codeceptjs -c codecept.conf.api.js run --steps --grep @GetDollarQuotation",
+        "allure:report": "allure serve output"
     },
     "devDependencies": {
         "allure-commandline": "^2.13.8",
         "axios": "^0.21.1",
         "chai": "^4.3.0",
         "codeceptjs": "3.0.5",
-        "playwright": "^1.8.0"
+        "webdriverio": "^6.10.7"
     }
 }
