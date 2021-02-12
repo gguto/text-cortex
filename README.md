@@ -32,7 +32,7 @@ Para instalar o Allure utilize o seguinte comando:
 npm install -g allure-commandline --save-dev
 ```
 
-Para gerar o relátorio após a execução dos testes, utilize o seguinte comando:
+Para gerar o relatório após a execução dos testes, utilize o seguinte comando:
 ```
 npm run allure:report
 ```
