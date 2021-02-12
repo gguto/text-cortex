@@ -1,6 +1,6 @@
 #language: pt
 
-@Api @GetDollarQuotation
+@GetDollarQuotation
 Funcionalidade: Validação do endpoit que retorna a cotação do dolar de uma determinada data
 
   Esquema do Cenário: Cotação não deve ser negativa para uma data passada
